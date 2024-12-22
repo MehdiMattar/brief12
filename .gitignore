@@ -1,3 +1,7 @@
+myenv
+carssales.csv
+model_pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

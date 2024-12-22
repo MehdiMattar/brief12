@@ -1,0 +1,10 @@
+version: "3.11-slim"
+services:
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
